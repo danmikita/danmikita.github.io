@@ -1,93 +1,41 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ page.title }}</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>{{ page.title }}</title>
 
-    <link rel="stylesheet" href="https://github.com/themes/minimal/stylesheets/styles.css">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
-    <style>
-      header { zoom: 1.2; }
-      header h1 { margin-bottom: 5px; font-family: 'Roboto';}
-      header h1 a { color: #494949; font-weight: 300; }
-      header h3 { margin-top: 20px; margin-bottom: 5px; font-family: 'Roboto'; font-weight: 300;}
-      header p.view { margin-bottom: 5px; font-family: 'Roboto';}
-      header p.view a {font-weight: 100;}
-      header p.view small { padding-top: 5px; font-weight: 100;}
-      header ul {
-        zoom: 0.7;
-        margin-top: 25px;
-      }
-      section p { margin-top: 10px; }
-      section h1 { margin-bottom: 15px; font-family: 'Roboto'; font-weight: 100;}
-      section h2 { margin-bottom: 10px; }
-      section h2 { margin-bottom: 10px; }
-      footer { bottom: 20px; }
-      footer p { margin-bottom: 5px; }
-      .half-width {
-        float: left;
-        width: 200px;
-        list-style: none;
-        padding: 5px;
-        margin: 7px;
-        margin-bottom: 10px;
-      }
-      .half-width h4 {
-        margin-bottom: 5px;
-      }
-      .half-width ul {
-        padding-left: 0;
-      }
-      .half-width ul li {
-        list-style: inside;
-        font-size: 15px;
-      }
-      .clear-fix {
-        clear: both;
-      }
-    </style>
-    <script src="https://github.com/themes/minimal/javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="/">Dan Mikita</a></h1>
-        <p class="view"><a href="/blog.html">Blog<small>On Technologies and Ideas</small></a></p>
-        <p class="view"><a href="/meetups.html">Meetup Groups<small>Local Groups I Run</small></a></p>
+  <link rel="stylesheet" href="https://github.com/themes/minimal/stylesheets/styles.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+  <script src="https://github.com/themes/minimal/javascripts/scale.fix.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1><a href="/">Dan Mikita</a></h1>
+      <p class="view"><a href="/blog.html">Blog<small>On Technologies and Ideas</small></a></p>
+      <p class="view"><a href="/meetups.html">Meetup Groups<small>Local Groups I Run</small></a></p>
 
-        <h3>Follow Me On</h3>
-        <p class="view"><a href="https://github.com/danmikita" target="tab">GitHub<small>If coding is your thing</small></a></li>
+      <h3>Follow Me On</h3>
+      <p class="view"><a href="https://github.com/danmikita" target="tab">GitHub<small>If coding is your thing</small></a></li>
         <p class="view"><a href="https://twitter.com/danmikita" target="tab">Twitter<small>If you tweet</small></a></li>
-        <p class="view"><a href="https://plus.google.com/u/0/115630008770745946485/posts" target="tab">Google+<small>If you're cool</small></a></li>
-        <p class="view"><a href="http://www.linkedin.com/pub/dan-mikita/20/b30/580" target="tab">LinkedIn<small>If you want my resume</small></a></li>
+          <p class="view"><a href="https://plus.google.com/u/0/115630008770745946485/posts" target="tab">Google+<small>If you're cool</small></a></li>
+            <p class="view"><a href="http://www.linkedin.com/pub/dan-mikita/20/b30/580" target="tab">LinkedIn<small>If you want my resume</small></a></li>
 
-      </header>
-      <section id="main">
-        {{ content }}
-      </section>
-      <footer>
-        <!-- <p>This is the site of Dan Mikita</p> -->
-        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
+            </header>
+            <section id="main">
+              {{ content }}
+            </section>
+            <footer>
+              <!-- <p>This is the site of Dan Mikita</p> -->
+              <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+            </footer>
+          </div>
 
-    <script type="text/javascript">
-      var _gauges = _gauges || [];
-      (function() {
-        var t   = document.createElement('script');
-        t.type  = 'text/javascript';
-        t.async = true;
-        t.id    = 'gauges-tracker';
-        t.setAttribute('data-site-id', '4eb74c9f613f5d3567000004');
-        t.src = '//secure.gaug.es/track.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(t, s);
-      })();
-    </script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
-  </body>
-</html>
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+          <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+          <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+        </body>
+        </html>
