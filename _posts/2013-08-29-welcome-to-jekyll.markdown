@@ -1,24 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2013-08-29 15:32:09
-categories: jekyll update
+title:  "Automated Deployments with Git Tags"
+date:   2013-08-30 10:25:50
+categories: devops
 ---
+I gave a talk at the BarCampGR last weekend about automated deployments using git. The main idea of this talk was geared towards deployments using git tags specifically. Although it is relatively easy to set-up Heroku style deploys, it is less straight-forward how to deploy specific tags while still being able to roll-back to previous tags. Below you will find the Gist I wrote on the subject.
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+{% gist 6282509 %}
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
